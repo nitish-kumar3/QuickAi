@@ -39,7 +39,7 @@ export default function FounderPage() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="italic text-lg text-gray-700 dark:text-gray-300 border-l-4 border-indigo-500 pl-4 mb-4 font-secondary"
+              className="italic text-lg text-gray-900 dark:text-gray-300 border-l-4 border-indigo-500 pl-4 mb-4 font-secondary"
             >
               ““When I started this journey, my goal wasn’t just to build another tool — it was to create something that feels almost human in its ability to help
               <br /><br />
