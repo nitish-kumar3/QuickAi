@@ -5,6 +5,7 @@ import AiTools from '../components/AiTools'
 import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
 import Footer from '../components/Footer'
+import Ourowner from '../components/Ourowner'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <Navbar />
     <Hero />
     <AiTools/>
+    <Ourowner />
     <Testimonial />
     <Plan/>
     <Footer/>
