@@ -117,6 +117,7 @@ export const generateImage = async (req, res) => {
         // if (!prompt || !length) {
         //     return res.status(400).json({ success: false, message: "Missing prompt or length in request body." });
         // }
+        
         const plan = req.plan;
 
         if (plan !== 'premium') {
