@@ -21,6 +21,7 @@ export const generateArticle = async (req, res) => {
         // if (!prompt || !length) {
         //     return res.status(400).json({ success: false, message: "Missing prompt or length in request body." });
         // }
+        
 
         const plan = req.plan;
         const free_usage = req.free_usage;
@@ -53,7 +54,6 @@ export const generateArticle = async (req, res) => {
             })
         }
         res.json({ sucess: true, content })
-
 
     } catch (error) {
         console.log(error.message)
