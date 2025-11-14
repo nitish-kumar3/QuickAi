@@ -8,6 +8,7 @@ export default function FounderPage() {
         <title>Saas- AI Tool</title>
         <meta name="description" content="Hear directly from our founder about the mission behind our hotel management platform." />
       </Head> */}
+      
 
       <main className="min-h- p-8 flex items-center justify-center">
         <motion.div
