@@ -10,3 +10,4 @@ Neon : for database
 google ai studio : for gemini api
 clipdrop API : for generate AI image
 multer : remove backgroud for 
+
