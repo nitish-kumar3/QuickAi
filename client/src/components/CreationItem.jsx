@@ -4,6 +4,7 @@ import Markdown from 'react-markdown'
 const CreationItem = ({item}) => {
     const [expanded ,setExpanded] = useState(false)
 
+    
   return (
     <div onClick={()=> setExpanded(!expanded)} className='p-4 max-w-5xl text-sm bg-white border border-gray-200 rounded-lg cursor-pointer'>
         <div className='flex justify-between items-center gap-4'>
