@@ -7,7 +7,6 @@ const AiTools = () => {
    const Navigate = useNavigate()
    const {user} = useUser()
 
-   
   return (
     <div className='px-4 sm:px-20 xl:px-32 my-24'>
         <div className='text-center'>
